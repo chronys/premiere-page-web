@@ -1,0 +1,27 @@
+body 
+{background-color: rgb(12, 161, 87);
+
+}
+
+body header h1{ text-align: center;
+}
+body > main { text-align: center;
+}
+
+#par {border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+color: rgb(255, 0, 200);
+background-image: url(./fotolia_91768269.jpg);
+background-size: 500px;
+background-position: center;
+}
+
+#ad {text-align: right;
+color: blue;
+font-size: 50px;}
+
+#ag {text-align: left;
+color: brown;
+font-size: 50px;}
+
+#par1 {padding-left: 50px;}
