@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Balise form qui contiendra tous les éléments de notre formulaire -->
+    <form action="">
+      <label for="Nom" required>Nom</label>
+      <input type="text" id="nom" placeholder="Entrez votre nom ici" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" />
+
+      <label for="password">Mot de passe</label>
+      <input type="password" id="password" />
+
+      <label for="checkbox">quelle destination choississez vous?</label>
+      <input type="checkbox" checked /> Italie <input type="checkbox" /> France
+      <input type="checkbox" /> Allemagne
+
+      <label for="fruits">Quelle est ton fruit préféré ?</label>
+      <input type="radio" name="fruit" value="Cerise" id="cerise" />
+      <label for="cerise">Cerise</label>
+      <input type="radio" name="fruit" value="Nectarine" id="Nectarine" />
+      <label for="Nectarine">Nectarine</label>
+
+      <label for="textarea">commentaire</label>
+      <textarea
+        id="textarea"
+        minlength="2"
+        maxlength="10"
+        rows="1"
+        cols="20"
+        style="resize: none"
+      ></textarea>
+
+      <label for="age">Quel est votre âge ?</label>
+      <input type="number" min="0" max="150">
+
+      <input type="submit" value="envoyer le formulaire">
+      <input type="reset" value="Annuler">
+    </form>
+  </body>
+</html>

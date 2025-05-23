@@ -1,0 +1,17 @@
+
+table {
+    border-style: solid;
+border-collapse: collapse;
+
+}
+
+tr, td {
+    border: 2px solid;
+width: 10px;
+height: 5px;
+
+
+
+}
+
+

@@ -1,0 +1,19 @@
+body { background-color: blueviolet;
+
+}
+
+#s1.box {
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+
+
+    background-color: aquamarine;
+
+  width: 200px;
+  height: 250px;
+}

@@ -1,0 +1,16 @@
+body {
+    width: 400px;
+    margin: auto;
+}
+
+table {
+
+border-collapse: collapse;
+}
+
+tr, td {
+    border: 1px solid;
+width: 10px;
+height: 5px;
+}
+

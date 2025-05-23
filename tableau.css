@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(67, 125, 128);
+    color: white;
+}
+
+table {
+tr, td {
+    border: 2px solid;
+    border-collapse: collapse;
+
+}
+    border: 1px solid magenta;
+    
+ 
+
+
+}

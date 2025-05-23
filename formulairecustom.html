@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formulairecustom.css">
+    <title>formulaire test</title>
+  </head>
+  <body>
+    <h1>Formulaire d'inscription</h1>
+    <section id="s1">
+    <div class="box">
+    <div>
+      <hr />
+      <form action="">
+        <label for="Nom" required="">Nom</label>
+        <input
+          type="text"
+          id="Nom"
+          placeholder="Entrez votre nom ici"
+          required
+        />
+<br>
+        <label for="email">email</label>
+        <input type="email" id="email" />
+        <br />
+        <label for="adresse">tu viens d'où? (adresse)</label>
+        <input type="adresse" id="adresse" />
+        <br>
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" />
+
+        <br /><label for="password">Confirmez votre mot de passe</label>
+        <input type="password" id="password" />
+      </form>
+    </div>
+    <div>
+      <form action="">
+        <br /><label for="genre">Quel genre êtes vous ?</label>
+        <br><br>
+        <input type="radio" name="genre" value="masculin" id="masculin" />
+        <label for="masculin">masculin</label>
+        <br>
+        <input type="radio" name="genre" value="femmelle" id="femmelle" />
+        <label for="femmelle">femmelle</label>
+        <br>
+        <br>
+        <input type="radio" name="genre" value="autre" id="autre" />
+        <label for="autre">autre</label>
+        <br>
+        <label for="textarea">&nbsp; Je suis :</label>
+        <textarea
+          id="textarea"
+          minlength="2"
+          maxlength="10"
+          rows="1"
+          cols="20"
+          style="resize: none"
+        ></textarea>
+        <br />
+        <br>
+        <label for="age">Quel est votre âge ?</label>
+        <br>
+        <input type="number" min="0" max="150" />
+      </form>
+    </div></div>
+    </section>
+  </body>
+</html>
