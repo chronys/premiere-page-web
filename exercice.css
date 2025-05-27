@@ -1,0 +1,44 @@
+#intro {
+    color: blue;
+}
+.note {
+    background-color: yellowgreen;
+}
+
+#id {
+    color: blueviolet;
+}
+
+.class {
+    color: brown;
+}
+
+.cta {
+    background-color: green;
+    color: white;
+    padding: 0.5%;
+}
+
+.note {
+    background-color: chartreuse;
+}
+.info {
+    color: darkorange;
+}
+
+.carte {
+    background-color: aquamarine;
+    box-shadow: 5px 5px 5px brown;
+    margin: 30px;
+    border: 3px;
+    box-shadow: 50px;
+}
+
+#accueil h1 {
+background-color: brown;
+}
+
+.actif {
+    background-color: aquamarine;
+    box-shadow: 1px 1px 1px;
+}

@@ -1,0 +1,11 @@
+body {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.class {
+    background-color: bisque;
+}
+#id {
+    box-shadow: 5px 5px 5px 5px burlywood;
+}

@@ -5,6 +5,7 @@ body {
 
 table {
 
+
 border-collapse: collapse;
 }
 
@@ -12,5 +13,12 @@ tr, td {
     border: 1px solid;
 width: 10px;
 height: 5px;
+}
+
+.black {
+    background-color: black;
+}
+.brown {
+    background-color: #312519;
 }
 
