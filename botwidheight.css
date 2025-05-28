@@ -1,0 +1,70 @@
+.box1 {
+  height: 150px;
+  width: 300px;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px;
+  border-color: black;
+}
+
+#b1 {
+  width: 400px;
+  height: 400px;
+  background-color: gray;
+}
+#b2 {
+  width: 50%;
+  height: 25%;
+  background-color: blue;
+}
+
+#b3 {
+  width: 500px;
+  height: fit-content;
+  background-color: yellow;
+}
+
+#b4 {
+  width: 60%;
+  min-width: 200px;
+  max-width: 400px;
+  height: 100px;
+  background-color: green;
+}
+#b5 {
+  min-height: 100px;
+  max-height: 150px;
+  background-color: yellow;
+  overflow-y: scroll;
+}
+
+#b6 {
+  height: 50vh;
+  width: 100%;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  #p1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+}
+#b7 {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+}
+#b8 {
+    width: 300px;
+    height: 300px;
+
+    #i1 {
+        width: 300px;
+        height: 300px;
+    }
+}
