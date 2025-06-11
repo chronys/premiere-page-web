@@ -3,89 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mes premières balises</title>
+    <link rel="stylesheet" href="index.css" />
+    <title>restaurant</title>
   </head>
   <body>
     <header>
-      <div>
-        <h1>Mes premières balises HTML</h1>
-      </div>
-      <h1>Exo 01</h1>
-      <p>
-        Bonjour, <strong>joyeux Halloween</strong>, on attends avec impatience
-        ce : <i> Week-end de 3 jours !</i>
-      </p>
+      <nav>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#lieu">Nous retrouver</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section id="banniere"></section>
+      <h1>restaurant</h1>
     </header>
     <main>
-      <hr />
-      <h1>Exo 02</h1>
-      <h2><strong> Mon repas de Noël</strong></h2>
-      <p>
-        J'ai eu la chance d'avoir un repas de Noël <i>excellent</i>, puisqu'il
-        etais composé des plats suivants :
-      </p>
-      <ul>
-        <li>Un Pinguouin</li>
-        <li>Du saumon rose</li>
-        <li>De la pintade avec une purée</li>
-        <li>Une bûche glacée</li>
-      </ul>
-      <p>Et le tout arrosé de <strong>Champagne !</strong></p>
-      <p>Après, j'ai pu deballer tout mes cadeaux :</p>
-      <ol>
-        <li>Mami Lulu : <strong>des DVD</strong></li>
-        <li><p>Mami Elisabeth : des CD</p></li>
-        <li>
-          <p>Tonton Hugues : des <strong>livres</strong></p>
-        </li>
-      </ol>
-
-      <hr />
-      <h1>Exo 03</h1>
-      <ol>
-        <li>HTML: HyperText Markup Language</li>
-        <ul>
-          <li>
-            c'est la structure de la page html où on organise les titres,
-            paragraphes, listes, tableaux...
-          </li>
-        </ul>
-        <li>CSS: Cascading Style Sheet</li>
-        <ul>
-          <li>
-            C'est la mise en forme, le design, l'apparence (les couleurs, les
-            tailles, les positionnements sur la page)
-          </li>
-        </ul>
-        <li>Terminologie</li>
-        <ul>
-          <li>
-            Eléments : ils définissent la structure et le contenu des objets au
-            sein d'une page. Les plus couramment utilisés sont les niveaux de
-            titre (h1 à h6) et les paragraphes (avec la balise p)
-          </li>
-          <li>
-            Balises : elles sont reconnaissables car elles sont encadrées d'un
-            chevron ouvrant et d'un chevron fermant. L'ouverture d'une balise
-            détermine le début d'un élément. Sa fermeture détermine sa fin. Le
-            contenu qui est inséré entre une balise ouvrante et fermante
-            représente le contenu de cet élément. Par exemple, un lien html sera
-            encadré d'une balise A ouvrante et fermante Il existe aussi des
-            balises auto-fermantes (aussi dites orphelines).
-          </li>
-
-          <li>
-            Attributs : ce sont des propriétés utilisées pour fournir des
-            informations complémentaires sur un élément. Les attributs les plus
-            communs incluent l'attribut ID (qui identifie un élément),
-            l'attribut CLASS (qui classifie un élément), l'attribut SRC (qui
-            spécifie la source d'un contenu qui peut être imbriqué) et
-            l'attribut HREF (qui contient un lien hypertexte vers une ressource
-            liée). Les attributs sont définis au sein de la balise ouvrante
-            après le nom de l'élément  &lt;<a href&gt;
-          </li>
-        </ul>
-      </ol>
+      <h2>Nos menus</h2>
+      <section id="menu">
+        <div>
+          <div>
+            <img src="../img/cabin.png" alt="image d'un truc" />
+          </div>
+          <p>petite maison sur son coulis de framboise fourré à la foret</p>
+        </div>
+        <div>
+          <div>
+            <img src="../img/cake.png" alt="image d'un truc" />
+          </div>
+          <p>petite gateau tout mignon</p>
+        </div>
+        <div>
+          <div>
+            <img src="../img/circus.png" alt="image d'un truc" />
+          </div>
+          <p>petit circus appetissant</p>
+        </div>
+        <div>
+          <div>
+            <img src="../img/game.png" alt="image d'un truc" />
+          </div>
+          <p>petite manette, voilà c'est tout</p>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Formulaire de contact</h2>
+        <form>
+          <div>
+            <label for="nom">Votre nom</label>
+            <input type="text" id="nom" />
+          </div>
+          <div>
+            <label for="prenom">Votre nom</label>
+            <input type="text" id="prenom" />
+          </div>
+          <div>
+            <label for="email">votre prenom</label>
+            <input type="email" id="email" />
+          </div>
+          <div>
+            <label for="message">Entrez votre message</label>
+            <textarea name="message" style="resize: none"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Envoyez votre message" />
+          </div>
+        </form>
+      </section>
     </main>
+    <footer>
+      <h3 id="lieu">Nous retrouver !</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1240.4874751512511!2d2.3872357001519027!3d48.79141640003884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6739445c6fd4d%3A0xf0dba9b1ae2a928f!2s3%20Av.%20Maximilien%20Robespierre%2C%2094400%20Vitry-sur-Seine!5e0!3m2!1sfr!2sfr!4v1749565510460!5m2!1sfr!2sfr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </footer>
   </body>
 </html>

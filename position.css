@@ -1,0 +1,66 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px;}
+
+  /* 1ere position */
+  
+  /* position par defaut de chaque élément, il n'est pas impacté par le changement de position (top,
+   right, bottom, left)  */
+
+
+/* 2e position : relative */
+   /* position relative : si on ne specifie pas de position (top, right, bottom, left), elle restera à sa place mais si
+    on specifie, elle bougera par rapport à sa position initiale */
+   /* top: 150px : bougera de 150px vers le bas (depuis son point le plus haut */
+
+   .chevauche2 {
+height: 400px;
+width: 400px;
+margin: auto;
+position: relative;
+top: 100px;
+
+/* on met notre div en position relative (se place par rapport à elle-meme */
+   }
+
+   /* 3e position : absolute : ce place à son parent si ce parent à une position definie (relative, absolute,
+    fixed, sticky mais non static sinon il ce placera par rapport au body*/
+   .chevauche2 p {
+    /* va se placer par rapport à .chevauche2 qui à une position relative (fonctionne avec tous les ancêtres qui ont une
+     position (relative, absolute, fixed, sticky))
+    position: absolute;
+    top: 350px;
+    left: 0; */
+   }
+   /* 4eme position : fixed
+   
+   l'element sera fixé par rapport à la fenetre du navigateur
+   
+
+   h1 {
+    position: fixed;
+   }  */
+
+   body{
+height: 3000px;
+
+   }
+
+   /* 5e position : sticky
+   Hybride entre relative/fixed
+   l'element restera dans le flux (à sa place) jusqu'à atteindre une distance definie (exemple top:0)
+   puis il se fixe à cet endroit tant que son conteneur est visible. */
+
+   h1 {
+    position: sticky;
+   
+   }
+
+
+   
+
+   
+   
+

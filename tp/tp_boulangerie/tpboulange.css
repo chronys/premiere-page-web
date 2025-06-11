@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    height: 75px;
+    background-color: brown;
+    color: white;
+    h2 {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .nav {display: flex;
+    flex-wrap: wrap;
+justify-content: space-evenly;}
+}
+
+
+.d1 {
+    color: white;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img_boulange/hero.jpg);
+    background-size: 100%;
+    p {
+
+     
+     text-align: center;
+        
+    }}
+
+    .btnn {
+        height: 100px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+
+    }
+    button {
+        background-color: brown;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        width: 120px;
+        height: 40px;   
+    }
+    
+    h3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p {
+        display: flex;
+        flex-direction: column;
+        p {
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+    .croissant {
+        text-align: center;
+    }
+.croissants {
+    width: 100%;
+    height: 100%;
+}
+.baguette {
+    text-align: center;
+}
+.baguettes {
+    width: 100%;
+    height: 100%;
+}
+.chocolatine {
+    text-align: center;
+}
+.chocolatines {
+    width: 100%;
+    height: 100%;
+}
+.eclair {
+    text-align: center;
+}
+.eclairs {
+    width: 100%;
+    height: 100%;
+}
+.macaron {
+text-align: center;
+}
+.macarons {
+    width: 100%;
+    height: 100%;
+}
+.tarte {
+    text-align: center;
+}
+.tartes {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+}
+footer input, button {
+width: 90%;
+}
+
+.footer {
+    background-color: brown;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    color: white;
+    
+}

@@ -1,0 +1,203 @@
+body {
+  background-color: #ecedef;
+}
+
+.cormorant-garamond- {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.crimson {
+  color: crimson;
+}
+.none {
+  list-style: none;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+
+.assiette {
+  display: flex;
+
+  img {
+    position: relative;
+
+    left: 5%;
+    width: 50%;
+    height: 50%;
+    z-index: -1;
+    border-radius: 100%;
+    margin-top: 200px;
+  }
+
+
+  .p {
+    position: absolute;
+    top: 95%;
+    right: 500px;
+  }
+    u,
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .pp {
+    border-bottom: 1px solid black;
+  }
+
+.laasalle {
+  position: relative;
+  width: 100%;
+  height: 928.717px;
+}
+
+.lasalle {
+  position: absolute;
+  top: 30%;
+
+  width: 50%;
+  height: 100%;
+  left: 0px;
+
+  p {
+    padding: 50px;
+  }
+}
+
+.divimg1 {
+  float: right;
+  width: 50%;
+  right: 0px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.service {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  height: 928.717px;
+  position: relative;
+
+  p {
+    padding: 50px;
+  }
+
+  .seervice {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0px;
+    top: 30%;
+  }
+
+  .divimg2 {
+    width: 918px;
+    height: 928.717px;
+  }
+}
+.dressage {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 928.717px;
+  position: relative;
+
+  p {
+    padding: 50px;
+  }
+
+  .dreessage {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0px;
+    top: 30%;
+  }
+
+  .divimg3 {
+    position: absolute;
+    width: 918px;
+    height: 928.717px;
+    right: 0px;
+  }
+}
+.gout {
+  display: flex;
+  width: 100%;
+  height: 928.717px;
+  position: relative;
+}
+  p {
+    padding: 50px;
+  }
+
+  .goout {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0px;
+    top: 40%;
+  }
+  .divimg4 {
+    position: absolute;
+    width: 918px;
+    height: 928.717px;
+    left: 0px;
+  }
+
+footer {
+    padding-top: 100px;
+  display: flex;
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+
+  .divplan {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 100px;
+  }
+
+footer {
+    
+    .cityguide {
+        position: absolute;
+        left: 49%;
+        top: 80px;
+    }
+}
+
+.septime {
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    padding-left: 70px;
+
+    p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+   
+}
+
+
